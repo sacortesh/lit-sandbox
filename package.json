@@ -1,0 +1,22 @@
+{
+  "name": "lit-sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox to experiment with lit-element",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "esbuild src/App.jsx --bundle --servedir=public/ --outdir=public/js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.2.12",
+    "@types/react-dom": "^18.2.5",
+    "esbuild": "^0.18.4",
+    "lit": "^2.7.5",
+    "lit-element": "^3.3.2",
+    "lit-html": "^2.7.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
